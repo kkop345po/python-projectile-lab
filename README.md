@@ -10,9 +10,24 @@
 
 ### 直接玩：Windows 免安裝版
 
-不需要安裝 Python。前往 [最新版本下載頁](https://github.com/kkop345po/python-projectile-lab/releases/latest)，下載 **CannonBattle-Windows-x64.zip**，解壓縮後雙擊 **CannonBattle.exe** 即可遊玩。
+**[下載 Windows 免安裝版 ZIP（v1.0.0，約 14 MB）](https://github.com/kkop345po/python-projectile-lab/releases/download/v1.0.0/CannonBattle-Windows-x64.zip)**
+
+1. 下載上方的 **CannonBattle-Windows-x64.zip**。
+2. 在 ZIP 按右鍵，選擇「全部解壓縮」。
+3. 開啟解壓縮後的資料夾，雙擊 **CannonBattle.exe**。
+4. 進入遊戲後，調整角度與力道，按住空白鍵蓄力、放開發射。
+
+不需要安裝 Python，也不需要另外下載圖片；遊戲與必要執行環境都已打包。請完整解壓縮後再執行。
 
 這個下載版適用於 Windows 10/11 64 位元，完整離線執行。macOS、Linux 或想修改程式的使用者，請依下方方式執行 Python 原始碼。
+
+下載頁：[最新版本](https://github.com/kkop345po/python-projectile-lab/releases/latest) · [v1.0.0 發佈說明與 SHA256 校驗檔](https://github.com/kkop345po/python-projectile-lab/releases/tag/v1.0.0)。要分享給朋友，可以直接分享上方的 ZIP 下載連結。
+
+GitHub 的 **Code → Download ZIP** 或 Releases 裡的 **Source code** 是程式原始碼；想直接玩，請下載 **CannonBattle-Windows-x64.zip**。
+
+### v1.0.0 打包版驗證
+
+已在本機 Windows 實際啟動打包後的 `.exe`，並確認大砲圖片載入、玩家射擊、電腦反擊、扣血與回合交替正常；也確認從其他工作目錄啟動時能找到內含圖片。
 
 ### 使用 Python 原始碼
 
