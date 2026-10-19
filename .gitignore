@@ -8,3 +8,7 @@ venv/
 *.log
 .DS_Store
 Thumbs.db
+.build-env/
+build/
+dist/
+*.spec

@@ -8,6 +8,14 @@
 
 ## 環境與快速開始
 
+### 直接玩：Windows 免安裝版
+
+不需要安裝 Python。前往 [最新版本下載頁](https://github.com/kkop345po/python-projectile-lab/releases/latest)，下載 **CannonBattle-Windows-x64.zip**，解壓縮後雙擊 **CannonBattle.exe** 即可遊玩。
+
+這個下載版適用於 Windows 10/11 64 位元，完整離線執行。macOS、Linux 或想修改程式的使用者，請依下方方式執行 Python 原始碼。
+
+### 使用 Python 原始碼
+
 - Python 3.10 以上，含 Tkinter。
 - 遊戲與範例使用 Python 標準函式庫，不必安裝 pip 套件。
 - Windows 建議使用 Python 官方安裝程式並保留 Tcl/Tk 元件。
@@ -114,4 +122,14 @@ y = y0 + vy * t - gravity * t ** 2 / 2
 大砲素材由使用者提供參考圖，再經去背及相容性處理。這是獨立的 Python 教學實作，玩法參考回合制砲戰，未使用《彈彈堂》的程式或官方素材。倉庫未另行授予程式或圖片的開源授權。
 
 本倉庫只收錄當天的 Python 練習與必要素材，不包含個人 API 憑證、下載的 token 檔、快取或其他網路服務設定。
+
+## 自行打包 Windows 執行檔
+
+在 Windows、Python 3.10 以上的環境，執行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\build_windows.ps1
+```
+
+腳本會建立專用的 `.build-env` 環境，安裝 PyInstaller，將遊戲與大砲圖片包成 `dist/CannonBattle.exe`，並產生 `dist/CannonBattle-Windows-x64.zip`。執行遊戲本身不需要 PyInstaller。建置產物與建置環境不會提交到 Git；正式下載檔放在 GitHub Releases。
 
