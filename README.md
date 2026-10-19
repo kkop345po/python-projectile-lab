@@ -2,6 +2,16 @@
 
 2026 年 10 月 19 日的 Python 練習：從拋射公式、函式模組、命令列工具，到 Tkinter 視窗與單機回合制砲戰。
 
+## 🎮 想直接玩遊戲？下載這個！
+
+### [⬇ 下載遊戲：CannonBattle-Windows-x64.zip](https://github.com/kkop345po/python-projectile-lab/releases/download/v1.0.0/CannonBattle-Windows-x64.zip)
+
+**Windows 10／11（64 位元）：下載 ZIP → 全部解壓縮 → 雙擊 `CannonBattle.exe`，即可直接玩！不需要安裝 Python。**
+
+- **`CannonBattle.exe`＝可以直接開啟的遊戲程式**，放在上方 ZIP 裡。
+- **[`GUI.py`](GUI.py)＝目前砲戰遊戲的主程式原始碼**，需要 Python 才能執行。
+- 其他 `.py` 是教學或舊版範例。只想玩遊戲，下載上方 ZIP 即可，不必逐一下載這些檔案。
+
 ## 遊戲展示
 
 ![單機砲戰實際遊玩](docs/gameplay.gif)
@@ -61,7 +71,7 @@ python GUI.py
 
 ## 檔案導覽
 
-- `GUI.py`：目前的單機回合制砲戰。
+- **[`GUI.py`](GUI.py)：🎮 遊戲主程式——目前的單機回合制砲戰原始碼。想免安裝直接玩，請下載頁首的遊戲 ZIP，執行裡面的 `CannonBattle.exe`。**
 - `GUI_打靶版.py`：五發打靶挑戰，命中靶區得分。
 - `GUI_軌跡模擬器.py`：輸入初速度、角度與重力，顯示拋物線、結果與動畫。
 - `GUI_元件範例.py`：Tkinter 常見元件、事件、排版、選單、對話框及檔案操作教學。
